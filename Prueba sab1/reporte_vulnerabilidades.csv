@@ -1,0 +1,11 @@
+IP,Puerto,Servicio,Nivel de Riesgo,Descripcion,Mitigacion
+192.168.18.1,21,ftp,Alto,"FTP no es seguro, usa texto claro para credenciales y datos.",Usar SFTP o FTPS.
+192.168.18.1,22,ssh,Bajo,"SSH es seguro, pero debe configurarse adecuadamente para evitar vulnerabilidades.","Configurar SSH adecuadamente, deshabilitar acceso root."
+192.168.18.1,23,telnet,Alto,Telnet es inseguro y transmite información en texto claro.,Cerrar Telnet y usar SSH en su lugar.
+192.168.18.1,53,domain,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+192.168.18.1,80,http,Bajo,HTTP es inseguro ya que transmite datos en texto claro.,Considerar migrar a HTTPS para mejorar la seguridad.
+,,,,,
+192.168.18.30,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+192.168.18.30,137,netbios-ns,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+192.168.18.30,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+192.168.18.30,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz Gráfica del Escáner de Red</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
+    
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <h1>Escáner de Red</h1>
+            <form id="formulario-escaneo" action="/scan" method="POST">
+                <!-- Al selecionar escaneo se envia una solicitud por medio del metodo POST -->
+
+                <!-- Campo para el rango de IPs en formato CIDR -->
+                <div class="input-field">
+                    <label for="rango-ip">Ingrese el rango de IP (CIDR):</label>
+                    <input type="text" id="rango-ip" name="rango_ip" placeholder="192.168.0.0/24" required>
+                </div>
+
+                <!-- Campo para seleccionar el tipo de escaneo -->
+                <div class="input-field">
+                    <label for="tipo-escaneo">Tipo de Escaneo:</label>
+                    <select id="tipo-escaneo" name="tipo_escaneo">
+                        <option value="conectividad">Conectividad</option>
+                        <option value="vulnerabilidades">Vulnerabilidades</option>
+                    </select>
+                </div>
+
+                <!-- Opción para enviar el reporte por correo -->
+                <div class="input-field">
+                    <label for="enviar-reporte">¿Enviar reporte por correo?</label>
+                    <select id="enviar-reporte" name="enviar_reporte" onchange="toggleEmailInput()">
+                        <option value="no">No</option>
+                        <option value="si">Sí</option>
+                    </select>
+                </div>
+
+                <!-- Campo para ingresar el correo electrónico (oculto por defecto) -->
+                <div class="input-field" id="correo-container" style="display: none;">
+                    <label for="correo">Ingrese su correo Gmail:</label>
+                    <input type="email" id="correo" name="correo" placeholder="tucorreo@gmail.com">
+                </div>
+
+                <!-- Botón para iniciar el escaneo -->
+                <button type="submit">Iniciar Escaneo</button>
+            </form>
+
+            <!-- Sección para mostrar mensajes al usuario -->
+            <div id="resultado">
+                <h2>Resultados del Escaneo</h2>
+                <p>...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript para manejar la visibilidad del campo de correo -->
+    <script>
+        function toggleEmailInput() {
+            const enviarReporte = document.getElementById('enviar-reporte').value;
+            const correoContainer = document.getElementById('correo-container');
+            if (enviarReporte === 'si') {
+                correoContainer.style.display = 'block';
+            } else {
+                correoContainer.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
