@@ -13,11 +13,10 @@
   #   Flash                           
   #   Redirect                       
   #   URL_for
-
+#
 # "os" y "er"                      
 #                                 
-# escanerNMAP                       
-#                                   
+# escanerNMAP                                                          
 #                                
 #
 #
