@@ -9,9 +9,9 @@
 
   #   Request  
   #   Render_Template              (funciones de Flask utilizadas para manejar 
-  #   Send_file                      solicitudes HTTP, renderizar plantillas HTML,
-  #   Flash                          enviar archivos al cliente, mostrar mensajes 
-  #   Redirect                        de error y redirigir entre rutas)
+  #   Send_file                      \tsolicitudes HTTP, renderizar plantillas HTML,
+  #   Flash                          \tenviar archivos al cliente, mostrar mensajes 
+  #   Redirect                        \tde error y redirigir entre rutas)
   #   URL_for
 
 # "os" y "er"                      (Módulos estándares de Python)
