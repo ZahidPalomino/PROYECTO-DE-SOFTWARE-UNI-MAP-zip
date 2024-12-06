@@ -1,0 +1,111 @@
+IP,Puerto,Servicio,Nivel de Riesgo,Descripcion,Mitigacion
+10.13.4.1,22,ssh,Bajo,"SSH es seguro, pero debe configurarse adecuadamente para evitar vulnerabilidades.","Configurar SSH adecuadamente, deshabilitar acceso root."
+10.13.4.1,53,domain,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.1,80,http,Bajo,HTTP es inseguro ya que transmite datos en texto claro.,Considerar migrar a HTTPS para mejorar la seguridad.
+,,,,,
+10.13.4.12,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.12,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.12,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.3,22,ssh,Bajo,"SSH es seguro, pero debe configurarse adecuadamente para evitar vulnerabilidades.","Configurar SSH adecuadamente, deshabilitar acceso root."
+10.13.4.3,53,domain,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.3,80,http,Bajo,HTTP es inseguro ya que transmite datos en texto claro.,Considerar migrar a HTTPS para mejorar la seguridad.
+,,,,,
+10.13.4.5,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.5,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.5,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+10.13.4.5,902,iss-realsecure,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.5,912,apex-mesh,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+,,,,,
+10.13.4.43,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.43,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.43,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.47,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.47,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.47,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+10.13.4.47,623,oob-ws-http,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.47,902,iss-realsecure,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.47,912,apex-mesh,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+,,,,,
+10.13.4.51,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.51,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.51,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.60,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.60,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.60,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.75,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.75,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.75,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.92,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.92,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.92,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+10.13.4.92,1309,jtag-server,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+,,,,,
+10.13.4.95,80,http,Bajo,HTTP es inseguro ya que transmite datos en texto claro.,Considerar migrar a HTTPS para mejorar la seguridad.
+10.13.4.95,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.95,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.95,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.105,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.105,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.105,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.115,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.115,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.115,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.123,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.123,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.123,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.128,1309,jtag-server,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+,,,,,
+10.13.4.130,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.130,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.130,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.131,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.131,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.131,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.141,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.141,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.141,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+10.13.4.141,903,iss-console-mgr,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.141,913,apex-edge,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+,,,,,
+10.13.4.146,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.146,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.146,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+10.13.4.146,902,iss-realsecure,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.146,912,apex-mesh,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.146,1309,jtag-server,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+,,,,,
+10.13.4.156,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.156,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.156,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+10.13.4.156,902,iss-realsecure,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.156,912,apex-mesh,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+,,,,,
+10.13.4.162,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.162,137,netbios-ns,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.162,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.162,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.164,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.164,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.164,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+10.13.4.164,1309,jtag-server,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+,,,,,
+10.13.4.174,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.174,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.174,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+,,,,,
+10.13.4.188,135,msrpc,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.
+10.13.4.188,139,netbios-ssn,Medio,NetBIOS puede exponer información sobre la red y los dispositivos conectados.,Limitar acceso de NetBIOS en redes no seguras.
+10.13.4.188,445,microsoft-ds,Bajo,Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.,Restringir acceso a puertos 445 en redes públicas.
+10.13.4.188,1309,jtag-server,Bajo,No se encontraron vulnerabilidades especificas.,Actualizar servicios y cerrar puertos innecesarios.

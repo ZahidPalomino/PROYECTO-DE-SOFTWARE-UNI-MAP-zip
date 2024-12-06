@@ -1,0 +1,441 @@
+IP: 10.13.4.1
+  Puerto: 22, Servicio: ssh, Nivel de Riesgo: Bajo
+  Descripcion: SSH es seguro, pero debe configurarse adecuadamente para evitar vulnerabilidades.
+  Mitigacion: Configurar SSH adecuadamente, deshabilitar acceso root.
+
+  Puerto: 53, Servicio: domain, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 80, Servicio: http, Nivel de Riesgo: Bajo
+  Descripcion: HTTP es inseguro ya que transmite datos en texto claro.
+  Mitigacion: Considerar migrar a HTTPS para mejorar la seguridad.
+
+
+----------------------------------------
+
+IP: 10.13.4.12
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.3
+  Puerto: 22, Servicio: ssh, Nivel de Riesgo: Bajo
+  Descripcion: SSH es seguro, pero debe configurarse adecuadamente para evitar vulnerabilidades.
+  Mitigacion: Configurar SSH adecuadamente, deshabilitar acceso root.
+
+  Puerto: 53, Servicio: domain, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 80, Servicio: http, Nivel de Riesgo: Bajo
+  Descripcion: HTTP es inseguro ya que transmite datos en texto claro.
+  Mitigacion: Considerar migrar a HTTPS para mejorar la seguridad.
+
+
+----------------------------------------
+
+IP: 10.13.4.5
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+  Puerto: 902, Servicio: iss-realsecure, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 912, Servicio: apex-mesh, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+
+----------------------------------------
+
+IP: 10.13.4.43
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.47
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+  Puerto: 623, Servicio: oob-ws-http, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 902, Servicio: iss-realsecure, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 912, Servicio: apex-mesh, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+
+----------------------------------------
+
+IP: 10.13.4.51
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.60
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.75
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.92
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+  Puerto: 1309, Servicio: jtag-server, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+
+----------------------------------------
+
+IP: 10.13.4.95
+  Puerto: 80, Servicio: http, Nivel de Riesgo: Bajo
+  Descripcion: HTTP es inseguro ya que transmite datos en texto claro.
+  Mitigacion: Considerar migrar a HTTPS para mejorar la seguridad.
+
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.105
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.115
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.123
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.128
+  Puerto: 1309, Servicio: jtag-server, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+
+----------------------------------------
+
+IP: 10.13.4.130
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.131
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.141
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+  Puerto: 903, Servicio: iss-console-mgr, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 913, Servicio: apex-edge, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+
+----------------------------------------
+
+IP: 10.13.4.146
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+  Puerto: 902, Servicio: iss-realsecure, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 912, Servicio: apex-mesh, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 1309, Servicio: jtag-server, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+
+----------------------------------------
+
+IP: 10.13.4.156
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+  Puerto: 902, Servicio: iss-realsecure, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 912, Servicio: apex-mesh, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+
+----------------------------------------
+
+IP: 10.13.4.162
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 137, Servicio: netbios-ns, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.164
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+  Puerto: 1309, Servicio: jtag-server, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+
+----------------------------------------
+
+IP: 10.13.4.174
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+
+----------------------------------------
+
+IP: 10.13.4.188
+  Puerto: 135, Servicio: msrpc, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
+  Puerto: 139, Servicio: netbios-ssn, Nivel de Riesgo: Medio
+  Descripcion: NetBIOS puede exponer información sobre la red y los dispositivos conectados.
+  Mitigacion: Limitar acceso de NetBIOS en redes no seguras.
+
+  Puerto: 445, Servicio: microsoft-ds, Nivel de Riesgo: Bajo
+  Descripcion: Microsoft-DS permite compartir archivos y puede ser vulnerable en redes abiertas.
+  Mitigacion: Restringir acceso a puertos 445 en redes públicas.
+
+  Puerto: 1309, Servicio: jtag-server, Nivel de Riesgo: Bajo
+  Descripcion: No se encontraron vulnerabilidades especificas.
+  Mitigacion: Actualizar servicios y cerrar puertos innecesarios.
+
