@@ -11,6 +11,10 @@
 # 🖥🔎❗Descripción del Proyecto:
 # Aplicación web en Python encargada del escaneo de red y detección de vulnerabilidades.
 #
-#
+# 🔧 Estructura del Código:
+# -> Importantes de Módulos [Flask, escanerNMAP]
+# -> Configuraciones [Flask(__name__), app.secret_key]
+# -> Rutas [Validación, Instanciación de Clases, Creación de Reportes, Notificación por Correo y Manejo de Errores]
+# -> Ejecución de la Aplicación
 
 
