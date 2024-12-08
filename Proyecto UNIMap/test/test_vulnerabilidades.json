@@ -1,0 +1,22 @@
+{
+    "vulnerabilities": [
+        {
+            "service": "ftp",
+            "risk_level": "Alto",
+            "description": "FTP no es seguro, usa texto claro para credenciales y datos.",
+            "mitigation": "Usar SFTP o FTPS."
+        },
+        {
+            "service": "ssh",
+            "risk_level": "Bajo",
+            "description": "SSH es seguro, pero debe configurarse adecuadamente para evitar vulnerabilidades.",
+            "mitigation": "Configurar SSH adecuadamente, deshabilitar acceso root."
+        },
+        {
+            "service": "telnet",
+            "risk_level": "Alto",
+            "description": "Telnet es inseguro y transmite información en texto claro.",
+            "mitigation": "Cerrar Telnet y usar SSH en su lugar."
+        }
+    ]
+}

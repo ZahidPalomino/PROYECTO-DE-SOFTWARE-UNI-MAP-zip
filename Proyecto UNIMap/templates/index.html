@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz Gráfica del Escáner de Red</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <a href="#top"><img src="{{ url_for('static', filename='imagenes/Logo.png') }}" alt="Logo del programa"></a>
+            </div>
+            <h1>Escáner de Red</h1>
+        </header>
+
+        <!-- Contenedor 1 -->
+        <div class="contenedor-1">
+            <div class="informacion parteA">
+                <h2>¿Qué es UNIMap?</h2>
+                <p>Es un programa simple pero eficiente que escanea las conectividades y vulnerabilidades de los dispositivos en una red, brindando información y mitigación de las vulnerabilidades detectadas.</p>
+            </div>
+            
+            <div class="form-container">
+                <!-- Formulario para escaneo -->
+                <form id="formulario-escaneo" action="/scan" method="POST">
+                    <div class="input-field">
+                        <label for="rango-ip">Ingrese el rango de IP (CIDR):</label>
+                        <input type="text" id="rango-ip" name="rango_ip" placeholder="192.168.0.0/24" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="tipo-escaneo">Tipo de Escaneo:</label>
+                        <select id="tipo-escaneo" name="tipo_escaneo">
+                            <option value="conectividad">Conectividad</option>
+                            <option value="vulnerabilidades">Vulnerabilidades</option>
+                        </select>
+                    </div>
+                    <div class="input-field">
+                        <label for="enviar-reporte">¿Enviar reporte por correo?</label>
+                        <select id="enviar-reporte" name="enviar_reporte" onchange="toggleEmailInput()">
+                            <option value="no">No</option>
+                            <option value="si">Sí</option>
+                        </select>
+                    </div>
+                    <div class="input-field" id="correo-container" style="display: none;">
+                        <label for="correo">Ingrese su correo Gmail:</label>
+                        <input type="email" id="correo" name="correo" placeholder="tucorreo@gmail.com" value="{{ request.form.get('correo', '') }}">
+                    </div>
+                    <button type="submit">Iniciar Escaneo</button>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- Contenedor 2 -->   
+        <div class="contenedor-2">
+            <div class="imagen">
+                <img src="{{ url_for('static', filename='imagenes/Logo.png') }}" alt="Background">
+            </div>
+            <div class="informacion parteB">
+                <h2>Acerca del programa</h2>
+                <p>Las redes de dispositivos enfrentan desafíos para identificar y gestionar vulnerabilidades en sus infraestructuras de red. A menudo carecen de herramientas para realizar escaneos de seguridad, detectar puertos abiertos y recibir alertas oportunas sobre posibles riesgos de seguridad. Esto pone en peligro la seguridad de sus sistemas y aumenta la probabilidad de ser vulnerables a ataques cibernéticos.</p>
+                <a href="https://github.com/Adrian-000/PROYECTO-DE-SOFTWARE-UNI-MAP-zip" target="_blank" class="verMas">Ver más</a>
+            </div>
+        </div>
+
+        <!-- Contenedor 3 -->
+        <div class="contenedor-3">
+            <div class="informacion parteC">
+                <h2>¿Qué es CIDR?</h2>
+                <p>El CIDR (Classless Inter-Domain Routing) es un método para asignar direcciones IP y gestionar el enrutamiento de manera más eficiente que el sistema tradicional basado en clases. Permite usar máscaras de subred más flexibles y ajustar el tamaño de los bloques de direcciones IP según las necesidades específicas, optimizando así el uso de las direcciones disponibles.</p>
+                <a href="https://aws.amazon.com/es/what-is/cidr/" target="_blank" class="verMas">Ver más</a>
+            </div>
+            <div class="informacion parteD">
+                <h2>Nmap</h2>
+                <p>Nmap es una herramienta de código abierto para explorar redes, identificar dispositivos, puertos abiertos y servicios en ejecución, utilizada principalmente en auditorías de seguridad.</p>
+                <a href="https://nmap.org/man/es/index.html" target="_blank" class="verMas">Ver más</a>
+            </div>
+        </div>
+
+        <!-- Contenedor 4 -->
+        <div class="contenedor-4">
+            <div class="informacion parteE">
+                <h2>About us</h2>
+                <p>Somos un grupo de estudiantes de la carrera de Ingenieria de Telecomunicaciones y Ciberseguridad de la Universidad Nacional de Ingenieria el cual propuso este proyecto para el curso de Programación Orientada a Objetos (POO) con la finalidad de analizar las vulnerabilidadesde de una red en un mismo entornor, el grupo se conforma por Luis Villegas, Zahid Palomino, Fatima Toscano y Adrian Mayta.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Función para mostrar/ocultar el campo de correo según la elección del usuario
+        function toggleEmailInput() {
+            const enviarReporte = document.getElementById('enviar-reporte').value;
+            const correoContainer = document.getElementById('correo-container');
+            correoContainer.style.display = enviarReporte === 'si' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
