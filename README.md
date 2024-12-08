@@ -9,7 +9,7 @@
 # > Mayta Nuñez Adrian - 20221530G
 #
 # 🖥🔎❗Descripción del Proyecto:
-# Aplicación web en Python encargada del escaneo de red y detección de vulnerabilidades.
+# Sistema para la Detección y Gestión de Vulnerabilidades de Seguridad Utilizando Python
 #
 # 🔧 Estructura del Código:
 # -> Importación de Módulos [Flask, escanerNMAP]
