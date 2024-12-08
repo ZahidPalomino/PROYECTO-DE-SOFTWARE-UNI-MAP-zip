@@ -16,5 +16,6 @@
 # -> Configuraciones [Flask(__name__), app.secret_key]
 # -> Rutas [Validación, Instanciación de Clases, Creación de Reportes, Notificación por Correo y Manejo de Errores]
 # -> Ejecución de la Aplicación
+# Para poder hacer uso de la aplicacion debera estar guardado en el escritorio y hacer click en la extensio ESCANER.bat en caso contrario se deberà activar el servidor flask de manera manual desde el cmd
 
 
